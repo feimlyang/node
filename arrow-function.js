@@ -25,7 +25,7 @@ const event4 = {
     printGuestList(){
         console.log("name is " + this.name) //name is party
         this.guestList.forEach(function(guest){
-            console.log(guest + " is attending " + this.name)
+            console.log(guest + " is attending " + this.name) //bind itself 
             // Ann is attending undefined
             // Ben is attending undefined
             // Cindy is attending undefined
